@@ -1,0 +1,466 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  background: #1d0605;
+  background: radial-gradient(circle, #e7e7e7 0%, #420d0d 0%, #531818 0%, black 100%);
+  width: 100vw;
+  height: 600px;
+}
+
+header .primary-header {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #f34444;
+  margin: 0 0 0 1.6rem;
+  font-family: "Lato";
+  text-transform: uppercase;
+}
+
+header .navbar {
+  float: left;
+  color: #ffffff;
+}
+
+header .navbar-nav {
+  margin-left: 250px;
+}
+
+header .navbar-nav .nav-item .nav-link {
+  color: #ffffff;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+header .navbar-nav .nav-item .nav-link:hover {
+  color: #e06969;
+}
+
+header .secondary-heading .secondary-header {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  color: #ffffff;
+  font-size: 50px;
+}
+
+header .secondary-button {
+  position: absolute;
+  top: 60%;
+  left: 44%;
+}
+
+header .secondary-button .btn-secondary {
+  width: 160px;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+  color: white;
+  background-color: transparent;
+  border-color: #f34444;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+
+header .secondary-button .btn-secondary:hover {
+  -webkit-transform: translateY(5px);
+          transform: translateY(5px);
+}
+
+main {
+  width: 100%;
+  height: 800px;
+}
+
+main .about {
+  width: 100%;
+  height: 700px;
+  padding: 0 50px;
+  font-family: "Bebas Neue", cursive;
+  background-color: #ecb2b2;
+}
+
+main .about h2 {
+  padding-top: 50px;
+  color: #131212;
+  text-align: center;
+  text-decoration: underline;
+}
+
+main .about p {
+  padding: 0 30px;
+  font-size: 25px;
+  font-family: "Lato";
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    background: #1d0605;
+    background: radial-gradient(circle, #e7e7e7 0%, #420d0d 0%, #531818 0%, black 100%);
+    width: 100%;
+    height: 100vh;
+  }
+  header .primary-header {
+    font-size: 2rem;
+    color: #ffffff;
+    margin: 0 0 0 1.6rem;
+    font-family: "Bebas Neue", cursive;
+    text-transform: uppercase;
+  }
+  header .navbar {
+    float: left;
+    color: #ffffff;
+  }
+  header .navbar-nav {
+    margin-left: 250px;
+  }
+  header .navbar-nav .nav-item .nav-link {
+    color: #ffffff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  header .navbar-nav .nav-item .nav-link:hover {
+    color: #e06969;
+  }
+  header .secondary-heading .secondary-header {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: #ffffff;
+    font-size: 50px;
+  }
+  header .secondary-button {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+  }
+  header .secondary-button .btn-secondary {
+    width: 160px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+    color: white;
+    background-color: transparent;
+    border-color: #f34444;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+  }
+  header .secondary-button .btn-secondary:hover {
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px);
+  }
+  main {
+    width: 100%;
+    height: 800px;
+  }
+  main .about {
+    width: 100%;
+    height: 700px;
+    padding: 0 50px;
+    font-family: "Bebas Neue", cursive;
+    background-color: #ecb2b2;
+  }
+  main .about h2 {
+    padding-top: 50px;
+    color: #131212;
+    text-align: center;
+    text-decoration: underline;
+  }
+  main .about p {
+    padding: 0 30px;
+    font-size: 25px;
+    font-family: "Lato";
+  }
+}
+
+@media screen and (max-width: 414px) {
+  header {
+    background: #1d0605;
+    background: radial-gradient(circle, #e7e7e7 0%, #420d0d 0%, #531818 0%, black 100%);
+    width: 100%;
+    height: 100vh;
+  }
+  header .primary-header {
+    font-size: 2rem;
+    color: #ffffff;
+    margin: 0 0 0 1.6rem;
+    font-family: "Bebas Neue", cursive;
+    text-transform: uppercase;
+  }
+  header .navbar {
+    float: left;
+    margin-right: 400px;
+    color: #ffffff;
+  }
+  header .navbar .navbar-toggler {
+    margin-right: 200px;
+  }
+  header .navbar-nav {
+    margin-right: 400px;
+  }
+  header .navbar-nav .nav-item .nav-link {
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  header .navbar-nav .nav-item .nav-link:hover {
+    color: #e06969;
+  }
+  header .secondary-heading .secondary-header {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: #ffffff;
+    font-size: 50px;
+  }
+  header .secondary-button {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+  }
+  header .secondary-button .secondary-button {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+  }
+  header .secondary-button .secondary-button .btn-secondary {
+    width: 100px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+    color: white;
+    background-color: transparent;
+    border-color: #f34444;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+  }
+  header .secondary-button .secondary-button .btn-secondary:hover {
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px);
+  }
+  main {
+    width: 100%;
+    height: 800px;
+  }
+  main .about {
+    width: 100%;
+    height: 700px;
+    padding: 0 50px;
+    font-family: "Bebas Neue", cursive;
+    background-color: #ecb2b2;
+  }
+  main .about h2 {
+    padding-top: 50px;
+    color: #131212;
+    text-align: center;
+    text-decoration: underline;
+  }
+  main .about p {
+    padding: 0 30px;
+    font-size: 25px;
+    font-family: "Lato";
+  }
+}
+
+@media screen and (max-width: 375px) {
+  header {
+    background: #1d0605;
+    background: radial-gradient(circle, #e7e7e7 0%, #420d0d 0%, #531818 0%, black 100%);
+    width: 100%;
+    height: 100vh;
+  }
+  header .primary-header {
+    font-size: 2rem;
+    color: #ffffff;
+    margin: 0 0 0 1.6rem;
+    font-family: "Bebas Neue", cursive;
+    text-transform: uppercase;
+  }
+  header .navbar {
+    float: left;
+    margin-right: 200px;
+    color: #ffffff;
+  }
+  header .navbar .navbar-toggler {
+    margin-right: 80px;
+  }
+  header .navbar-nav .nav-item {
+    float: left;
+  }
+  header .navbar-nav .nav-item .nav-link {
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  header .navbar-nav .nav-item .nav-link:hover {
+    color: #e06969;
+  }
+  header .secondary-heading .secondary-header {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color: #ffffff;
+    font-size: 30px;
+  }
+  header .secondary-heading .secondary-header .job {
+    color: #e06969;
+  }
+  header .secondary-button {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+  }
+  header .secondary-button .btn-secondary {
+    width: 100px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+    color: white;
+    background-color: transparent;
+    border-color: #f34444;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+  }
+  header .secondary-button .btn-secondary:hover {
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px);
+  }
+  main {
+    width: 100%;
+    height: 800px;
+  }
+  main .about {
+    width: 100%;
+    height: 700px;
+    padding: 0 50px;
+    font-family: "Bebas Neue", cursive;
+    background-color: #ecb2b2;
+  }
+  main .about h2 {
+    padding-top: 50px;
+    color: #131212;
+    text-align: center;
+    text-decoration: underline;
+  }
+  main .about p {
+    padding: 0 30px;
+    font-size: 25px;
+    font-family: "Lato";
+  }
+}
+
+@media screen and (max-width: 360px) {
+  header {
+    background: #1d0605;
+    background: radial-gradient(circle, #e7e7e7 0%, #420d0d 0%, #531818 0%, black 100%);
+    width: 100%;
+    height: 100vh;
+  }
+  header .primary-header {
+    font-size: 2rem;
+    color: #ffffff;
+    margin: 0 0 0 1.6rem;
+    font-family: "Bebas Neue", cursive;
+    text-transform: uppercase;
+  }
+  header .navbar {
+    float: left;
+    margin-right: 200px;
+    color: #ffffff;
+  }
+  header .navbar .navbar-toggler {
+    margin-right: 80px;
+  }
+  header .navbar-nav .nav-item .nav-link {
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  header .navbar-nav .nav-item .nav-link:hover {
+    color: #e06969;
+  }
+  header .secondary-heading .secondary-header {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: #ffffff;
+    font-size: 50px;
+  }
+  header .secondary-button {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+  }
+  header .secondary-button .secondary-button {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+  }
+  header .secondary-button .secondary-button .btn-secondary {
+    width: 100px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+    color: white;
+    background-color: transparent;
+    border-color: #f34444;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+  }
+  header .secondary-button .secondary-button .btn-secondary:hover {
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px);
+  }
+  main {
+    width: 100%;
+    height: 800px;
+  }
+  main .about {
+    width: 100%;
+    height: 700px;
+    padding: 0 50px;
+    font-family: "Bebas Neue", cursive;
+    background-color: #ecb2b2;
+  }
+  main .about h2 {
+    padding-top: 50px;
+    color: #131212;
+    text-align: center;
+    text-decoration: underline;
+  }
+  main .about p {
+    padding: 0 30px;
+    font-size: 25px;
+    font-family: "Lato";
+  }
+}
+/*# sourceMappingURL=style.css.map */
